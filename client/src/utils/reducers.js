@@ -102,9 +102,5 @@ export const reducers = (state = initalState, action) => {
 };
 
 // TODO:
-//  remove the following code
-
-
-// TODO:
 //  add export default reducers below
 export default reducers;

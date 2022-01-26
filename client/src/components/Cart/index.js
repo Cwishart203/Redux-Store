@@ -7,10 +7,6 @@ import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 
 // TODO:
-//  remove the following line of code
-
-
-// TODO:
 //  import { useDispatch, useSelector } from 'react-redux';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -20,9 +16,6 @@ import './style.css';
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
-  // TODO:
-  //  remove the following code
-
 
   // TODO:
   //  create const variable 'dispatch' and assign the returned value from useDispatch() to it

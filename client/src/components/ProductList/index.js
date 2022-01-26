@@ -2,9 +2,6 @@ import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem';
 
 // TODO:
-//  remove the following line of code
-
-// TODO:
 //  import { useDispatch, useSelector } from 'react-redux';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -15,8 +12,6 @@ import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/spinner.gif';
 
 function ProductList() {
-  // TODO:
-  //  remove the following code
 
   // TODO:
   //  create const variable 'dispatch' and assign the returned value from useDispatch() to it

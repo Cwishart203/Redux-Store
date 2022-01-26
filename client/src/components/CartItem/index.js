@@ -1,6 +1,4 @@
 import React from 'react';
-// TODO:
-//  remove the following line of code
 
 // TODO:
 //  import { useDispatch } from 'react-redux';
@@ -11,9 +9,6 @@ import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 
 const CartItem = ({ item }) => {
-    // TODO:
-  //  remove the following code
-
   // TODO:
   //  create a const variable 'dispatch' and assign the returned value from useDispatch() to the variable
   const dispatch = useDispatch();

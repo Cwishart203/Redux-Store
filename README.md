@@ -12,7 +12,7 @@
   - [Contributors](#Contributors)
 
   ## Screenshot
-  
+  ![Screenshot](./client/public/images/redux-store-screenshot.png)
 
   ## Description
   This project is an E-commerce website that allows you to that uses redux and stripe to browse an online store, add items to your cart, and then purchase.
