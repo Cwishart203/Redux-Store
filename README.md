@@ -15,15 +15,17 @@
   
 
   ## Description
-  This project is an E-commerce website that allows you to that uses redux and stripe. 
+  This project is an E-commerce website that allows you to that uses redux and stripe to browse an online store, add items to your cart, and then purchase.
 
   ## Installation
+  Open in terminal, then type "npm i." Then type "npm run seed."
 
   ## Usage
+  Open in terminal, then type "npm run develop"
 
 
   ## Deployment
-  
+  https://cwish-redux-store.herokuapp.com/
 
   ## Tests
   N/A
