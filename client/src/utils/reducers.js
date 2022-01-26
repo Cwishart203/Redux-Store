@@ -27,7 +27,7 @@ import {
   }
 //  ToDO:
 //    Make the first input parameter 'state' accept 'initialState' as its default value
-export const reducers = (state = initialValue, action) => {
+export const reducers = (state = initalState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
