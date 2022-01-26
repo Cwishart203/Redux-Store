@@ -3,10 +3,11 @@ import { useQuery } from '@apollo/client';
 
 // TODO:
 //  remove the following line of code
-import { useStoreContext } from '../../utils/GlobalState';
+
 
 // TODO:
 //  import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import {
   UPDATE_CATEGORIES,
@@ -18,14 +19,15 @@ import { idbPromise } from '../../utils/helpers';
 function CategoryMenu() {
   // TODO:
   //  remove the following code
-  const [state, dispatch] = useStoreContext();
+
 
   // TODO:
   //  create const variable 'dispatch' and assign the returned value from useDispatch() to it
-
+  const dispatch = useDispatch();
   // TODO:
   //  create const variable 'state' and assign the returned value from useSelector() to it
   //  pass callback function '(state) => state' as input argument to useSelector()
+  const state = useSelector((state) => state);
 
   const { categories } = state;
 

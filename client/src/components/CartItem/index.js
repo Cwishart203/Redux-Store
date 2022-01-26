@@ -1,10 +1,10 @@
 import React from 'react';
 // TODO:
 //  remove the following line of code
-import { useStoreContext } from '../../utils/GlobalState';
 
 // TODO:
 //  import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
@@ -13,7 +13,6 @@ import { idbPromise } from "../../utils/helpers";
 const CartItem = ({ item }) => {
     // TODO:
   //  remove the following code
-  const [, dispatch] = useStoreContext();
 
   // TODO:
   //  create a const variable 'dispatch' and assign the returned value from useDispatch() to the variable

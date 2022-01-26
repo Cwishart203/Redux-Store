@@ -8,7 +8,7 @@ import Auth from '../../utils/auth';
 
 // TODO:
 //  remove the following line of code
-import { useStoreContext } from '../../utils/GlobalState';
+
 
 // TODO:
 //  import { useDispatch, useSelector } from 'react-redux';
@@ -22,7 +22,7 @@ const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 const Cart = () => {
   // TODO:
   //  remove the following code
-  const [state, dispatch] = useStoreContext();
+
 
   // TODO:
   //  create const variable 'dispatch' and assign the returned value from useDispatch() to it
